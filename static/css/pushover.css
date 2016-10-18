@@ -1,0 +1,7 @@
+.pimcore_icon_pushover {
+    background: url(/plugins/Pushover/static/img/pushover.svg) center center no-repeat !important
+}
+
+.pushover_icon_settings {
+    background: url(/plugins/Pushover/static/img/pushover_settings.svg) center center no-repeat !important
+}

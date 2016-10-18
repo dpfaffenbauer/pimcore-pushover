@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+    <plugin>
+        <pluginName>Pushover</pluginName>
+        <pluginDescription><![CDATA[]]></pluginDescription>
+        <pluginVersion>0.1</pluginVersion>
+        <pluginRevision>1</pluginRevision>
+        <pluginBuildTimestamp>0</pluginBuildTimestamp>
+        <pluginClassName>\Pushover\Plugin</pluginClassName>
+        <pluginIncludePaths>
+            <path>/Pushover/lib</path>
+        </pluginIncludePaths>
+        <pluginNamespaces>
+            <namespace>Pushover</namespace>
+        </pluginNamespaces>
+        <pluginJsPaths>
+            <path>/plugins/Pushover/static/js/startup.js</path>
+            <path>/plugins/Pushover/static/js/settings.js</path>
+            <path>/plugins/Pushover/static/js/pimcore/document/pushover.js</path>
+        </pluginJsPaths>
+        <pluginCssPaths>
+            <path>/plugins/Pushover/static/css/pushover.css</path>
+        </pluginCssPaths>
+    </plugin>
+</zend-config>
