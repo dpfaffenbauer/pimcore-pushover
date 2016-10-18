@@ -4,6 +4,8 @@
 
 Adds a new Document Type called "Pushover" to send notifications via Pushover. The main reason to implement it as Document is: You can relate it to different kind of objects and use "send" Method to trigger the event.
 
+### This Plugin needs at least Pimcore build 3993
+
 ![Interface](docs/pushover.png)
 
 ## Getting started
