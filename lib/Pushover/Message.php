@@ -135,6 +135,10 @@ class Message extends \Capirussa\Pushover\Message  {
 
         $client = Client::init($this->getApplicationToken());
 
+        if(Configuration::get("APPLICATION.DISABLE_SSL_VERIFICATION")) {
+            $client->disableSslVerification();
+        }
+
         return $client->send($this);
     }
 

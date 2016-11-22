@@ -103,10 +103,16 @@ pimcore.plugin.pushover.settings = Class.create({
                         defaults: { width: 600 },
                         items: [
                             {
-                                fieldLabel: t('pushover_applicationid'),
                                 xtype: 'textfield',
+                                fieldLabel: t('pushover_applicationid'),
                                 name: 'APPLICATION.TOKEN',
                                 value: this.getValue('APPLICATION.TOKEN')
+                            },
+                            {
+                                xtype: 'checkbox',
+                                fieldLabel: t('pushover_disable_ssl_verification'),
+                                name: 'APPLICATION.DISABLE_SSL_VERIFICATION',
+                                checked: this.getValue('APPLICATION.DISABLE_SSL_VERIFICATION')
                             }
                         ]
                     }

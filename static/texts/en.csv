@@ -10,3 +10,4 @@
 "pushover_user_default","User Default"
 "pushover_document","Pushover Document"
 "pushover_pimcore_requirement","Pushover needs at least Build 3993"
+"pushover_disable_ssl_verification","Disable SSL Verification"
