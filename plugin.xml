@@ -2,7 +2,8 @@
 <zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
     <plugin>
         <pluginName>Pushover</pluginName>
-        <pluginDescription><![CDATA[]]></pluginDescription>
+        <pluginNiceName>Pushover Documents</pluginNiceName>
+        <pluginDescription><![CDATA[Pushover Documents introduces a new Document-Type to push messages via Pushover]]></pluginDescription>
         <pluginVersion>0.1</pluginVersion>
         <pluginRevision>1</pluginRevision>
         <pluginBuildTimestamp>0</pluginBuildTimestamp>
